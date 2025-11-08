@@ -1,16 +1,44 @@
-# React + Vite
+# 💊 Med-Projukti Client 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Med-Projukti** is a modern and secure **Hospital Management Frontend** built using **React.js** and **Tailwind CSS**.  
+This client-side application connects with the backend API ([Med-Projukti Server](https://github.com/simplysamiul/med-projukti-server)) to manage hospital departments — including authentication, dashboard management, and CRUD operations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 **User Authentication** – Login required before accessing the dashboard  
+- 🧭 **Protected Routes** – Only logged-in users can view the dashboard  
+- 🏥 **Department Management** – Add, view, edit, and delete departments  
+- 💬 **SweetAlert Notifications** – Clean success/error alerts  
+- 🎨 **Responsive UI** – Fully responsive layout using Tailwind CSS  
+- ⚡ **React Icons** – Modern and minimal icon set  
+- 🔄 **Real-time Data Update** – Instantly refreshes list after operations  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js (Vite)** – Frontend Framework  
+- **Tailwind CSS** – Styling  
+- **React Router DOM** – Routing and protected pages  
+- **SweetAlert2** – Pop-up alerts and confirmations  
+- **React Icons** – For visual icons  
+- **Fetch / Axios** – For REST API communication  
+
+---
+
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory and add your backend API URL:
+
+```env
+VITE_API_URL=http://localhost:5000
+
+git clone https://github.com/simplysamiul/med-projukti-client.git
+cd med-projukti-client
+npm run dev
+
+
+
