@@ -21,7 +21,6 @@ This client-side application connects with the backend API ([Med-Projukti Server
 
 - **React.js (Vite)** – Frontend Framework  
 - **Tailwind CSS** – Styling  
-- **React Router DOM** – Routing and protected pages  
 - **SweetAlert2** – Pop-up alerts and confirmations  
 - **React Icons** – For visual icons  
 - **Fetch / Axios** – For REST API communication  
